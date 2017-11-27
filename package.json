@@ -1,0 +1,27 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "letter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sberry5/ConstructorsHang.git"
+  },
+  "keywords": [
+    "hangman",
+    "game",
+    "constructors"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sberry5/ConstructorsHang/issues"
+  },
+  "homepage": "https://github.com/Sberry5/ConstructorsHang#readme",
+  "dependencies": {
+    "inquirer": "^4.0.0"
+  }
+}
