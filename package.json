@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Sberry5/ConstructorsHang#readme",
   "dependencies": {
-    "inquirer": "^4.0.0"
+    "inquirer": "^4.0.1"
   }
 }

@@ -7,7 +7,15 @@ var wordArray = ["starfish", "seahorse", "whale", "dolphin", "squid", "angelfish
 var wordToGuess = wordArray[Math.floor(Math.random()*wordArray.length)];
 // console.log(randomWord);
 
+//To hold split word
+var blanks = [];
 
+//Function to create blanks
+function createDash(wordToGuess, " ") {
+	for (var i = 0; i < wordToGuess.length; i++){
+		this.split()
+		}
+	}
 
 var wordSetup = function (randomWord) {
 	this.wordToGuess = wordToGuess;
@@ -20,9 +28,9 @@ var wordSetup = function (randomWord) {
 			else{
 				this.input.push()
 				}
+			}
 		}
-		}
-};
+	};
 console.log(wordToGuess);
 
 module.exports = wordSetup();
