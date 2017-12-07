@@ -7,21 +7,21 @@ inquirer.prompt([{
 	name: "play",
 	type: "confirm",
 	message: "Want to play hangman?",
-	//validate: function validateUserInput(play){
-	//	if(answer.play) {
-	//		//newGame();
+	validate: function validateUserInput(play){
+		if(answer.play) {
+			//newGame();
 }]);
-//     console.log("==============================================");
-//     console.log("\n Guess a letter\n");
-//     console.log("==============================================");
-//   		}
-// 		else {
-// 			console.log("Then why are you here?")
-// 		}
-// 	}
+    console.log("==============================================");
+    console.log("\n Guess a letter\n");
+    console.log("==============================================");
+  		}
+		else {
+			console.log("Then why are you here?")
+		}
+	}
 
-// }])
-// //.then(startGame());
+}])
+//.then(startGame());
 
 
 // //Function to start the game
